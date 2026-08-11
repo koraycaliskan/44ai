@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>44AI — Yeni Nesil Yapay Zekâ ve Otomasyon Çözümleri</title>
+<meta name="description" content="44AI; akıllı otomasyon, veri analitiği ve yapay zekâ destekli araçlarla işinizi geleceğe taşıyan yenilikçi bir teknoloji markasıdır.">
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  :root{
+    --bg: #090c14;
+    --bg-elev: #0f1420;
+    --card: #111827;
+    --card-hover: #151d2e;
+    --border: #1f2937;
+    --border-soft: rgba(255,255,255,0.06);
+    --indigo: #6366f1;
+    --violet: #a855f7;
+    --cyan: #22d3ee;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --text-dim: #64748b;
+    --radius: 18px;
+    --mono: 'JetBrains Mono', monospace;
+    --display: 'Space Grotesk', sans-serif;
+    --body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--body);
+    line-height:1.65;
+    overflow-x:hidden;
+  }
+
+  a{color:inherit;text-decoration:none;}
+  ul{list-style:none;}
+  img{max-width:100%;display:block;}
+  button{font-family:inherit;cursor:pointer;}
+  
+  .wrap{max-width:1240px;margin:0 auto;padding:0 6%;}
+
+  header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 6%;
+    backdrop-filter:blur(14px);
+    background:rgba(9,12,20,0.72);
+    border-bottom:1px solid var(--border-soft);
+  }
+
+  .logo{font-family:var(--display);font-size:24px;font-weight:700;display:flex;align-items:center;gap:10px;}
+
+  nav.main-nav{display:flex;align-items:center;gap:36px;}
+  nav.main-nav a{color:var(--text-muted);font-weight:500;font-size:15px;transition:color 0.25s ease;}
+  nav.main-nav a:hover{color:var(--text);}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 26px;border-radius:99px;font-weight:600;font-size:14.5px;transition:all 0.2s ease;}
+  .btn-primary{background:linear-gradient(135deg,var(--indigo),var(--violet));color:#fff;}
+  .btn-ghost{background:transparent;color:var(--text-muted);border:1px solid var(--border);}
+  
+  section{padding:100px 6%;}
+  .section-head{max-width:640px;margin:0 auto 56px;text-align:center;}
+  .section-head h2{font-family:var(--display);font-size:clamp(28px,4vw,42px);margin-top:14px;}
+  
+  .grid-products{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;}
+  .product-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:26px;transition:all 0.3s ease;}
+  .product-card:hover{transform:translateY(-6px);border-color:var(--indigo);}
+  .product-card h3{font-family:var(--display);font-size:19px;margin-bottom:10px;}
+  .product-card p{color:var(--text-muted);font-size:14.5px;margin-bottom:15px;}
+
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;max-width:1100px;margin:0 auto;}
+  .contact-line{display:flex;align-items:center;gap:14px;font-size:15px;color:var(--text-muted);margin-bottom:15px;}
+  
+  footer{border-top:1px solid var(--border);padding:44px 6%;text-align:center;color:var(--text-dim);font-size:13.5px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">44AI</div>
+  <nav class="main-nav">
+    <a href="#about">Hakkımızda</a>
+    <a href="#products">Uygulamalar</a>
+    <a href="#contact">İletişim</a>
+  </nav>
+  <a href="#contact" class="btn btn-primary">İletişime Geç</a>
+</header>
+
+<section id="products">
+  <div class="section-head">
+    <h2>Uygulamalarımız</h2>
+    <p>Geliştirdiğimiz Nexus tabanlı yapay zekâ ve veri analitiği araçları.</p>
+  </div>
+  <div class="grid-products">
+    <div class="product-card">
+      <h3>İstatistik Analizörü</h3>
+      <p>Veri setleriniz için adım adım çözüm sunan, aritmetik ortalama, varyans ve standart sapma hesaplayan modül.</p>
+    </div>
+    <div class="product-card">
+      <h3>KNN Algoritması</h3>
+      <p>K-En Yakın Komşu analizi ile veri noktalarınız arasındaki mesafeleri hesaplayan ve tahminleme yapan otomasyon aracı.</p>
+    </div>
+    <div class="product-card">
+      <h3>İkilik ↔ Ondalık Çevirici</h3>
+      <p>Binary ve decimal sayı sistemleri arasında hızlı ve doğru dönüşüm sağlayan yardımcı araç.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head">
+    <h2>İletişim</h2>
+    <p>Sorularınız için bizimle iletişime geçebilirsiniz.</p>
+    <div class="contact-line" style="justify-content:center;margin-top:20px;">
+        <i class="fa-solid fa-envelope"></i> info.44ai@gmail.com
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 44AI. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
